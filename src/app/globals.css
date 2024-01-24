@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.headerCustomContainer{
+.headerCustomContainer, .footerCustomContainer{
     @apply py-10
 }
-.headerCustomRow{
+.headerCustomRow, .footerCustomRow{
     @apply flex justify-between items-center
 }
 
