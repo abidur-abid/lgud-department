@@ -1,0 +1,4 @@
+{
+    "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+    "css.lint.unknownAtRules": "ignore"
+}
