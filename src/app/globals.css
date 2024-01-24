@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.headerCustomContainer{
+    @apply py-10
+}
+.headerCustomRow{
+    @apply flex justify-between items-center
+}
+
+.logo{
+    @apply text-3xl font-black uppercase text-primaryColor
+}
+
+.laptopNav{
+    @apply flex justify-between items-center  gap-10 uppercase font-bold
+}
+
+.singleLink{
+    @apply flex items-center gap-1 hover:text-primaryColor
+}
